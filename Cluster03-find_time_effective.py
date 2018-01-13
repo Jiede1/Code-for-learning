@@ -31,6 +31,9 @@ Birch=Birch(threshold=0.5, branching_factor=56, n_clusters=3, compute_labels=Tru
 r3=[]  #最为关键，预测的两个labels的相似度
 
 #for i in range(0,1611720-1592000,10):   #我有点担心复杂度的问题，运行太长时间
+m,n=dataset1.shape
+print(n-1592000)
+print(range(0,n-159200,5)[-1])
 for i in [19720]:
 	#用于储存分割后的数据
 	d1=[]

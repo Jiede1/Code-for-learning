@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CNN/.idea/CNN.iml" filepath="$PROJECT_DIR$/../CNN/.idea/CNN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Sparse_AutoEncoder.iml" filepath="$PROJECT_DIR$/.idea/Sparse_AutoEncoder.iml" />
+      <module fileurl="file://D:/公司专用/SDB文档/贵州广电项目/贵州广电/synchronous_data_new/.idea/synchronous_data_new.iml" filepath="D:/公司专用/SDB文档/贵州广电项目/贵州广电/synchronous_data_new/.idea/synchronous_data_new.iml" />
+    </modules>
+  </component>
+</project>

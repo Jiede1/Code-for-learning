@@ -66,7 +66,7 @@ class BPnet(object):
 					ax.scatter(mydata[0,1],mydata[0,2],c='red',marker='o')
 				i+=1
 		else:
-			print 'can not plot the dataMat'
+			print ('can not plot the dataMat')
 	
 	def logistic(self,inX):    
 		return 1/(1+exp(-inX))
@@ -127,7 +127,7 @@ class BPnet(object):
 		if n==3:
 			amin=min(min(self.dataMat.tolist()))
 			amax=max(max(self.dataMat.tolist()))
-			print amin,amax
+			print(amin,amax)
 			x=linspace(int(round(amin)),int(round(amax)),step)
 			#print x
 			#print 'x:',len(x)
@@ -158,7 +158,7 @@ class BPnet(object):
 	def TrendLine(self):
 		x=range(0,self.iterator)
 		y=log2(self.errorList)
-		print y
+		print (y)
 		plt.plot(x,y,color='r')
 		plt.show()
 	
@@ -167,8 +167,8 @@ class BPnet(object):
 			
 a=BPnet()
 a.loadDataMat(r'D:\python_learning_dataes\testSet2.txt')
-print a.dataMat.shape   #(307,3)
-print a.classLabels.shape	#(307,1)
+print (a.dataMat.shape)   #(307,3)
+print (a.classLabels.shape)	#(307,1)
 #print a.dataMat
 a.normalize1()
 a.normalize2()
